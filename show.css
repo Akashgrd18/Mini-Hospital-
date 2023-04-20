@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body
+{
+    background:linear-gradient(rgb(77, 77, 154),rgb(195, 223, 234));
+
+}
+.navbar {
+    overflow: hidden;
+    background: no-repeat linear-gradient(whitesmoke, skyblue);
+    
+    
+
+
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar a:hover {
+    background-color: skyblue;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar a.active {
+    background-color: skyblue;
+    color: black
+    
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+table{
+    background: linear-gradient(whitesmoke, skyblue);
+    border-collapse: collapse;
+    margin-top: 30px;
+    padding: 25px;
+    color: black;
+    border: 2px solid black;
+    width: 80%;
+    
+}
+table th{
+    padding: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+}
+table td{
+    padding: 4px;
+    font-size:18px ;
+}
+input{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
